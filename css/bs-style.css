@@ -1,13 +1,25 @@
-
-tab{
-    height: 200px;
+@media only screen and (orientation:portrait) {
+    .tab{transform: rotate(90deg);}
 }
-.header {
+.tab{
+    margin-top: 200px;
+    overflow: auto;
+    position: relative;
+    height: 500px;
+}
+table{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tab thead th { 
+    position: sticky; 
+    top: 0; 
+    z-index: 1; 
+}
+thead, th {
     position: sticky;
-    top:0;
-    background:#eee;
+    background: #eee;
 }
-/* Just common table stuff */
-table  { border-collapse: collapse; width: 100%; }
-th, td { padding: 8px 16px; }
-th     { background:#eee; }
+
+

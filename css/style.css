@@ -1,8 +1,13 @@
+@media only screen and (orientation:portrait) {
+    .tableFixHead {transform: rotate(90deg);}
+}
+.para{
+margin-bottom: 100px;
+}
 
 .tableFixHead          { 
     overflow: auto;
-    height: 200px;
-
+    height: 450px;
 }
 .tableFixHead thead th { 
     position: sticky; 
@@ -11,7 +16,12 @@
 }
 
 /* Just common table stuff */
-table  { border-collapse: collapse; width: 100%; }
-th, td { padding: 8px 16px; }
-th     { background:#eee; }
-
+table  { border-collapse: collapse; 
+        margin-bottom: 200px;
+}
+th, td { 
+    padding: 8px 16px; 
+}
+th     { 
+    background:#eee; 
+}
