@@ -1,0 +1,13 @@
+
+tab{
+    height: 200px;
+}
+.header {
+    position: sticky;
+    top:0;
+    background:#eee;
+}
+/* Just common table stuff */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+th     { background:#eee; }
