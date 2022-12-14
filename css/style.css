@@ -7,7 +7,7 @@ margin-bottom: 100px;
 
 .tableFixHead          { 
     overflow: auto;
-    height: 450px;
+    height: 400px;
 }
 .tableFixHead thead th { 
     position: sticky; 
